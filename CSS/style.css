@@ -89,7 +89,7 @@ a{
     width: 100%;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 993px) {
     section{
         margin-bottom: 40px;
     }
@@ -99,7 +99,7 @@ a{
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     section{
         margin-bottom: 32px;
     }
@@ -142,7 +142,7 @@ h4{
     font-size: 24px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 993px) {
     h2{
         font-size: 32px;
         margin-bottom: 32px;
@@ -153,7 +153,7 @@ h4{
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     h2{
         font-size: 24px;
         margin-bottom: 20px;
@@ -178,7 +178,7 @@ h4{
     margin-left: 64px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 993px) {
     .ml-32{
         margin-left: 24px;
     }
@@ -188,7 +188,7 @@ h4{
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     .mr-30{
         margin-right: 0px;
     }
@@ -224,13 +224,13 @@ header{
 }
 
 
-@media (max-width: 992px) {
+@media (max-width: 993px) {
     header{
         padding: 30px 39px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     header{
         padding: 0;
         flex-direction: column;
@@ -288,7 +288,7 @@ header{
     font-weight: 700;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 993px) {
     .banner-text p{
         font-size: 20px;
         font-weight: 500;
@@ -301,7 +301,7 @@ header{
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     .banner{
         background: url(../img/banner-sm.png) no-repeat 50% 50%;
         background-size: cover;
@@ -346,7 +346,7 @@ header{
 
 
 
-@media (max-width: 992px) {
+@media (max-width: 993px) {
     .intro{
         padding: 40px 0 80px;
     }
@@ -365,7 +365,7 @@ header{
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     .intro{
         padding: 32px 0 52px;
     }
@@ -434,7 +434,7 @@ header{
     background: url(../img/Page-1.svg) 50% 50% no-repeat;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 993px) {
     .series .container{
         margin-bottom: 0px;
     }
@@ -462,7 +462,7 @@ header{
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     .series-box{
         justify-content: center;
         position: relative;
@@ -508,9 +508,8 @@ header{
 }
 
 .brand-box{
-    /* display: flex; */
     justify-content: space-between;
-    /* padding-bottom: 80px; */
+    flex-wrap: nowrap;
 }
 
 .brand-box a, .brands a::before{
@@ -561,7 +560,7 @@ header{
     background-size: cover;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 993px) {
     .brands{
         padding: 40px 0;
     }
@@ -577,7 +576,7 @@ header{
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     .brands{
         padding: 32px 0;
     }
@@ -628,14 +627,14 @@ h6{
     font-weight: 500;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 993px) {
     .customer-boxes li{
         width: 330px;
         margin-bottom: 28px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     .customer-boxes li{
         width: 345px;
         margin-bottom: 16px;
@@ -688,7 +687,7 @@ input[type=submit] {
     margin: 42px auto 0;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 993px) {
     .contact{
         padding: 40px 0;
     }
@@ -719,7 +718,7 @@ input[type=submit] {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     .contact{
         padding: 32px 0;
     }
@@ -801,7 +800,7 @@ footer img{
 }
 
 
-@media (max-width: 992px) {
+@media (max-width: 993px) {
     footer{
         padding: 40px;
     }
@@ -842,7 +841,7 @@ footer img{
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     footer{
         padding: 23px 0 25px;
     }
