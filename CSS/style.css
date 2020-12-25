@@ -89,6 +89,12 @@ a{
     width: 100%;
 }
 
+@media (max-width: 1140px) {
+    .container{
+        padding: 0 15px;
+    }
+}
+
 @media (max-width: 993px) {
     section{
         margin-bottom: 40px;
@@ -96,6 +102,7 @@ a{
 
     .container{
         max-width: 690px;
+        padding: 0;
     }
 }
 
@@ -396,8 +403,9 @@ header{
     margin-bottom: 32px;
 }
 
-.series-box:nth-child(3) h2{
-    order: -1;
+.sunglasses{
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .series-photo{
@@ -419,7 +427,9 @@ header{
 }
 
 .series-box h2:before{
-    background: url(../img/iconfinder_44_2529968.svg) 50% 50% no-repeat;
+    background-image: url(../img/iconfinder_44_2529968.svg);
+    background-repeat: no-repeat;
+    background-position: center;
     content: "";
     display: inline-block;
     width: 48px;
@@ -427,11 +437,28 @@ header{
 }
 
 .sunglasses h2::before{
-    background: url(../img/Layer_1.svg) 50% 50% no-repeat;
+    background-image: url(../img/Layer_1.svg);
 }
 
 .functional h2::before{
-    background: url(../img/Page-1.svg) 50% 50% no-repeat;
+    background-image: url(../img/Page-1.svg);
+}
+
+@media (max-width: 1040px) {
+    .series-box h2:before{
+        background-size: 90%;
+        width: 32px;
+        height: 32px;
+    }
+
+    .functional h2::before{
+        background-size: 65%;
+    }
+
+    .series-text p{
+        font-size: 28px;
+        line-height: 1.321;
+    }  
 }
 
 @media (max-width: 993px) {
@@ -447,18 +474,8 @@ header{
         margin-bottom: 8px;
     }
 
-    .series-box:nth-child(3) h2{
-        order: 3;
-    }
-
-    .series-text p{
-        font-size: 28px;
-        line-height: 1.321;
-    }  
-
-    .series-box h2:before{
-        width: 32px;
-        height: 32px;
+    .sunglasses {
+        flex-direction: row;
     }
 }
 
@@ -487,15 +504,15 @@ header{
     }
 
     .series-box h2:before{
-        background: url(../img/icon-diamond-white.svg) 50% 50% no-repeat;
+        background-image: url(../img/icon-diamond-white.svg);
     }
 
     .sunglasses h2::before{
-        background: url(../img/icon-sun-white.svg) 50% 50% no-repeat;
+        background-image: url(../img/icon-sun-white.svg);
     }
     
     .functional h2::before{
-        background: url(../img/icon-thunder-white.svg) 50% 50% no-repeat;
+        background-image: url(../img/icon-thunder-white.svg);
     }
     
 }
@@ -509,8 +526,8 @@ header{
 
 .brand-box{
     justify-content: space-between;
-    flex-wrap: nowrap;
 }
+
 
 .brand-box a, .brands a::before{
     display:block;
@@ -560,6 +577,14 @@ header{
     background-size: cover;
 }
 
+@media (max-width: 1140px) {
+    .brand-box a, .brands a::before{
+        width: 450px;
+        height: 360px;
+    }
+}
+
+
 @media (max-width: 993px) {
     .brands{
         padding: 40px 0;
@@ -586,9 +611,10 @@ header{
         height: 284px;
         margin-bottom: 16px;
     }
-
-
 }
+
+
+
 
 /*-----------------------Feedback-----------------------*/
 .customer-boxes{
@@ -685,6 +711,7 @@ input[type=submit] {
     background-color: #AA0601;
     display: block;
     margin: 42px auto 0;
+    
 }
 
 @media (max-width: 993px) {
@@ -906,3 +933,5 @@ footer img{
 
 
 }
+
+
